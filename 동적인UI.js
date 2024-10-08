@@ -81,7 +81,7 @@ function App() {
           -> 모달창은 열림/닫힘 이 두개 상태밖에 없기 때문에 그거 2종류만 표현할 수 있는 자료형이면 됨.
 
         3. state에 따라 UI가 어떻게 보일지 작성 <- 조건문 등으로 
-          : state가 false면 <Modla>안보이게 true면 <Modal>보이게 
+          : state가 false면 <Modal>안보이게 true면 <Modal>보이게 
 
           function App (){
 
