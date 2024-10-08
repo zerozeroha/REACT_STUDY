@@ -1,4 +1,4 @@
-React
+#2. React
 
 React  왜 쓰는 건지 ?
 
