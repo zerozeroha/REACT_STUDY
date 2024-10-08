@@ -1,5 +1,3 @@
-//  eslint-disable Lint끄는 기능임 
-
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
