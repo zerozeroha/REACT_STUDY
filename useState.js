@@ -44,8 +44,10 @@ function App() {
   return (
     // return()안에는 병렬로 태그 2개 이상 기입금지 : ex) <div></div>이런 병렬
     <div className="App"> 
-    {/* 실은 html이 아니라 jsx(.js파일에서 쓰는 html 대용품)임. */}
-    {/* 리액트에서 <div>만드는 법 : react.createElement('div',null,'Hello World') 
+    {/* 
+    
+    실은 html이 아니라 jsx(.js파일에서 쓰는 html 대용품)임.
+    리액트에서 <div>만드는 법 : react.createElement('div',null,'Hello World') 
     
     JSX문법
 
@@ -54,7 +56,9 @@ function App() {
     
     2. 변수넣을 땐 {변수} 
     
-    3. style 넣을 땐 style = {} */}
+    3. style 넣을 땐 style = {} 
+    
+    */}
       <div className="black-nav">
         <h4 id={post}>블로그임.</h4>
         <h4>{logo}</h4>
