@@ -11,8 +11,7 @@ function App() {
   let [글제목, 글제목변경] = useState(['남자 코트 추천','강남 우동 맛집', '파이썬 독학']);
   let [logo, setLOGO] = useState('ReactBlog');
   let [따봉, 따봉변경] = useState(0);
-  let [modal, setModal] = useState(false); 
-  // 스위치 역할
+  let [modal, setModal] = useState(false);  // 스위치 역할
   // 0 or 1 / true or flase / '열림' or '닫힘'  : 형식은 자유, 모달창상태 표현만 가능하면 됨.
   
 
