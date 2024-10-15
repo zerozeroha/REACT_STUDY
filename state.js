@@ -25,7 +25,7 @@ function App() {
     // 일반 변수는 갑자기 변경되면 html에 자동으로 반영안됨. ex) let post = 강남 -> let post 역삼
     // state 쓰던 html은 자동 재렌더링됨.
     // 변동시 자동으로 html에 반영되게 만들고 싶으면 state 쓰셈.
-    // 로고 같은 경우는 1,2년에 한 번 바뀌는데 굳이 state로?f
+    // 로고 같은 경우는 1,2년에 한 번 바뀌는데 굳이 state로?
     // 자주바뀌는 html에 적용을 할 수 있는 요소에다가 state를 쓰는 게 좋음.
 
   //(참고) Destructuring 문법
