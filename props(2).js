@@ -58,7 +58,7 @@ function App() {
               copy[i] = copy[i]+1;
               따봉변경(copy)
             }}>👍</span>
-          {따봉[i]}</h4> {따봉[i]}
+          {따봉[i]}</h4> 
           <p>2월 17일 발행</p> 
         </div>
         })
