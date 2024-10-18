@@ -48,13 +48,19 @@ function App() {
       {
         글제목.map(function(a, i ){
           return <div className='list'>
-          <h4 onClick={()=>{setModal(true); setTitle(i)}}>
-            { 글제목[i] }
+          <h4 onClick={
+            ()=>{setModal(true); 
+            setTitle(i)}}>
+              { 글제목[i] }
             {/* e.preventDefault() 이러면 이벤트 기본 동작을 막아주고 
             상위html로 퍼지는 이벤트버블링을 막고 싶으면 e.stopPropagation() */}
-            <span onClick={ (e) => { e.stopPropagation(); 따봉변경(따봉+1)
+            <span onClick={ (e) => { 
+          e.stopPropagation(); 
+          let copy = [...따봉];
+          따봉변경(copy);
+          copy[i] = copy[i] + 1;
             }}>👍</span>
-          {따봉[i]}</h4> {따봉[i]}
+          {따봉[i]}</h4> 
           <p>2월 17일 발행</p> 
         </div>
         })
