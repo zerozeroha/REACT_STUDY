@@ -6,7 +6,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { Button, Navbar, Container, Nav } from 'react-bootstrap';
-// 항상 그냥 가져오는 게 아니라 import해오기(맨 처음페이지), 대문자로 된 거 다 추가하기/ .점찍힘 건 굳이x
+// 항상 그냥 가져오는 게 아니라 import해오기(맨 처음페이지),
+// 대문자로 된 거 다 추가하기(component 다 import하기)/ .점찍힘 건 굳이x
 
 function App() {
   return (
