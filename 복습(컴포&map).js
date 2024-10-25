@@ -32,6 +32,17 @@ function App() {
             {
               shoes.map(function(a,i){
                 return <Sneakers shoes = {shoes[i]} i={i}/>
+              `i={i}`는 **리액트의 `props`를 통해 해당 요소의 인덱스를 전달**하는 방식입니다. 
+
+// `shoes.map()`을 사용할 때 `i`는 현재 반복 중인 요소의 인덱스를 나타냅니다. 이 값을 자식 컴포넌트(`Card`)에 **`props`로 전달**해, 내부에서 이미지나 텍스트 등을 해당 인덱스에 맞게 렌더링할 수 있습니다.
+
+// 예를 들어:
+
+```jsx
+<Card shoes={shoes[i]} i={i} />
+```
+
+이 코드는 `Card` 컴포넌트로 `i`를 넘기며, `Card`에서 그 값을 이용해 해당 신발의 정보나 이미지를 정확하게 표시합니다.
               })
             }
             
