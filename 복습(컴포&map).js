@@ -1,16 +1,19 @@
-// 다른 파일에 있던 자료 가져오려면 import & export
+//오늘의 숙제 :
+
+// 1. 오늘 만든 상품목록을 컴포넌트로 만들어봅시다. 컴포넌트도 길면 다른 파일로 빼도 상관없음 
+
+// 2. 컴포넌트만들면 그 안에 데이터바인딩도 아마 다시해야겠군요 
+
+// 3. 반복적인 html이나 컴포넌트를 발견하면 연습삼아 map 반복문을 써봅시다. 
 
 import logo from './logo.svg';
 import './App.css';
 import { Button, Navbar, Container, Nav } from 'react-bootstrap';
 import bg from './img/bg.png'
 import { useState } from 'react';
-
-// import 작명 from './data.js'
 import data from './data.js';
 
-// export하려면 export default 변수명
-// import하려면 import 작명 from '파일경로'
+
 
 function App() {
 
