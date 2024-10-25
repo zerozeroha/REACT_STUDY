@@ -36,7 +36,7 @@ function App() {
             <div className="col-md-4">
               <img src='https://codingapple1.github.io/shop/shoes3.jpg' width="80%"></img>
               <h4>{shoes[2].title}</h4>
-                <p>{shoes[2].price}</p>
+              <p>{shoes[2].price}</p>
             </div>      
         </div>
       </div>
