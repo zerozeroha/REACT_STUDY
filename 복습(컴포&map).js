@@ -42,7 +42,7 @@ function App() {
 }
 
 // 컴포넌트 이름 앞에 대문자로 짓는 거 잊지말기!!
-// img 태그에서 경로를 템플릿 리터럴로
+// img 태그에서 경로를 템플릿 리터럴로 : {}랑 ₩빽틱 써서 자바스크리브 문잗열로 만들기
 function Sneakers(props){
   return(
     <div className="col-md-4">
