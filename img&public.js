@@ -8,8 +8,8 @@ import shoes from './img/bg.png'
 // html 파일에선 import부터 하고 필요한 곳에서 사용해야
 // * html에서 src폴더 이미지 사용할 땐 import부터 해와야 함. (이미지가 100개면 어쩔 것?!)
 // : public 폴더에도 이미지 보관가능
-//   리액트는 사이트밣행 전에 html js css 파일을 압축함. (bundling)
-//   BUT puclic 폴더에 있던 건 압축안됨.
+//   리액트는 사이트 발행 전에 html js css 파일을 압축함. (bundling)
+//   BUT public 폴더에 있던 건 압축안됨.
 // 그래서 형태를 보존하고 싶은 파일은 public 폴더에 넣으면 되는데 js 파일은 그럴 일은 거의 없고 
 // 이미지, txt, json 등 수정이 필요없는 static 파일들의 경우엔 public 폴더에 보관해도 상관없습니다.
 
