@@ -1,4 +1,4 @@
-// 리액트 라우터 2 : navigate, nestes routes, outlet
+// 리액트 라우터 2 : navigate, nesteㅇ routes, outlet
 // router의 장점
 // 1. 이런 식으로 UI 만들면 뒤로가기 버튼 이용가능
 // 2. 페이지 이동이 쉬움 (UI스위치 조작 쉬움)
