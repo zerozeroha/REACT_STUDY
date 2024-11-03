@@ -1,3 +1,4 @@
+// 셋팅이랑 기본라우팅
 
 import logo from './logo.svg';
 import './App.css';
