@@ -23,7 +23,10 @@ function App() {
           <Navbar.Brand href="#home">ShoeShop</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link onClick={()=>{ navigate('/')}}>Home</Nav.Link>
-            <Nav.Link onClick={()=>{ navigate('/detail')}}>Detail</Nav.Link>
+// URL 파라미터로 동작하게 하려면?
+// navigate 함수에 파라미터 자리에 실제 값을 넣어야 합니다.
+// id를 변수로 동적으로 넣고 싶다면 : '/detail/0' or '/detail/${id}'
+            <Nav.Link onClick={()=>{ navigate('/detail/0')}}>Detail</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
