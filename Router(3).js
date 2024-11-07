@@ -32,7 +32,6 @@ function App() {
       </Navbar>
 
       <Routes>
-        <Route path="/" element={<div>메인페이지임.</div>}/>
         <Route path="/" element={
           <> 
           <div>메인페이지임.</div>
